@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Exer2Test {
+	
+	Scanner sc = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		long InitialTime = System.currentTimeMillis();
+		
+		Exer2 e1 = new Exer2("EIOS","2S97");
+		
+		System.out.println(e1.getNumber());
+		
+		System.out.print("\nExec time: " + (System.currentTimeMillis() - InitialTime));
+	}
+
+}

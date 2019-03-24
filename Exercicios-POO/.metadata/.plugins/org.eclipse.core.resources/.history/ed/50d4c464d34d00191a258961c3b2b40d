@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Exer2Test {
+	
+	Scanner sc = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+			
+		System.out.println("Informe dois numeros codificados");
+		string num1 = sc.nextLine();
+		
+		Exer2 e1 = new Exer2("EIOS","2S97");
+		
+		System.out.println(e1.getNumber());
+	}
+
+}

@@ -1,0 +1,15 @@
+public class Exer2Test {
+
+	public static void main(String[] args) {
+		long InitialTime = System.currentTimeMillis();
+		
+		Exer e1 = Exer("banana");
+		
+		
+				
+		
+		
+		System.out.println("Exec time: " + (System.currentTimeMillis() - InitialTime));
+	}
+
+}

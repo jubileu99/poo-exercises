@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Exer3&apos; to &apos;Triangulos&apos;&#x0D;&#x0A;- Original project: &apos;Exer3&apos;&#x0D;&#x0A;- Original element: &apos;Exer3&apos;&#x0D;&#x0A;- Renamed element: &apos;Triangulos&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Exer3&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Exer3.java[Exer3" matchStrategy="1" name="Triangulos" qualified="false" references="true" similarDeclarations="false" stamp="1553397391431" textual="false" version="1.0"/>
+</session>

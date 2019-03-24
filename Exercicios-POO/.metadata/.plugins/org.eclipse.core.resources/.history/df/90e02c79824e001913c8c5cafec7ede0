@@ -1,0 +1,9 @@
+
+public class Exer3Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Triangulos t1 = new Triangulos(10,4);
+	}
+
+}

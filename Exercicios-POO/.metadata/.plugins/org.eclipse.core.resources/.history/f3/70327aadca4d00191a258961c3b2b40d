@@ -1,0 +1,50 @@
+public class Exer2{
+	
+		private int num1;
+		private int num2;
+		String FinalNumber;
+			
+	public Exer2(String n1, String n2) {
+		
+		this.num1 = converteToInt(n1);
+		this.num2 = converteToInt(n2);
+		
+		System.out.println(num1);
+		System.out.println(num2);
+		System.out.print(num1+num2);
+	}
+	
+	private int converteToInt(String num) {
+
+
+		char numConvertedChar[] = num.toCharArray();
+		char[] numConvertedInt = new char[numConvertedChar.length];
+		
+		for(int i = 0; i < numConvertedChar.length; i++) {
+			switch(numConvertedChar[i]) {
+				case 'E':  numConvertedInt[i] = '3'; break;
+				case 'I':  numConvertedInt[i] = '1'; break;
+				case 'S':  numConvertedInt[i] = '5'; break;
+				case 'O':  numConvertedInt[i] = '0'; break;
+				default: numConvertedInt[i] = numConvertedChar[i];
+			}
+		}
+		
+		String stringNum = new String(numConvertedInt);
+		int numFinal = Integer.parseInt(stringNum);
+		
+		return numFinal;
+	}
+	
+	private String convertSumToString(int somaInt) {
+		char[] n1 = Integer.toString(somaInt);
+		
+		
+		for(char i : n1) {
+			
+		}
+		
+		return n1;
+	}
+	
+}

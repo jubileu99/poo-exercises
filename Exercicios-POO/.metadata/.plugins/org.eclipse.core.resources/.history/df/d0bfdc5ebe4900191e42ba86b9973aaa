@@ -1,0 +1,21 @@
+
+public class FiboTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int n = 5, anterior = 0, atual = 0;
+		
+		for(int i = 1; i <= n ; i++) {
+			if(i == 1) {
+				atual = 1;
+				anterior = 0;
+			}else {
+				atual = i + atual;
+				anterior = atual;
+			}
+		}
+		
+	}
+
+}

@@ -1,0 +1,61 @@
+public class Exer2{
+	
+		private int num1;
+		private int num2;
+		private String FinalNumber;
+			
+	public Exer2(String n1, String n2) {
+		
+		this.num1 = converteToInt(n1);
+		this.num2 = converteToInt(n2);
+		this.FinalNumber = convertSumToString(num1+num2);
+		
+	}
+	
+	public String getNumber() {
+		return this.FinalNumber;
+	}
+	
+	private int converteToInt(String num) {
+
+
+		char numConvertedChar[] = num.toCharArray();
+		char[] numConvertedInt = new char[numConvertedChar.length];
+		
+		for(int i = 0; i < numConvertedChar.length; i++) {
+			switch(numConvertedChar[i]) {
+				case 'E':  numConvertedInt[i] = '3'; break;
+				case 'I':  numConvertedInt[i] = '1'; break;
+				case 'S':  numConvertedInt[i] = '5'; break;
+				case 'O':  numConvertedInt[i] = '0'; break;
+				default: numConvertedInt[i] = numConvertedChar[i];
+			}
+		}
+		
+		String stringNum = new String(numConvertedInt);
+		int numFinal = Integer.parseInt(stringNum);
+		
+		return numFinal;
+	}
+	
+	private String convertSumToString(int somaInt) {
+		String n1 = Integer.toString(somaInt);
+		char[] n2 = n1.toCharArray();
+		char[] aux = new char[n2.length];
+		
+		for(int i = 0; i < n2.length; i++) {
+			switch(n2[i]) {
+				case '3':  aux[i] = 'E'; break;
+				case '1':  aux[i] = 'I'; break;
+				case '5':  aux[i] = 'S'; break;
+				case '0':  aux[i] = 'O'; break;
+				default: aux[i] = n2[i];
+			}
+		}
+		
+		String auxFinal = new String(aux);
+		
+		return auxFinal;
+	}
+	
+}

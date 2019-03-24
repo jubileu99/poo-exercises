@@ -1,0 +1,26 @@
+
+public class Fibo {
+	
+	private int n;
+	
+	public Fibo(int n) {
+		this.n = n;
+	}
+	
+	public int[] PutFiboInArray(int n) {
+		
+		int[] FiboArray = new int[n];
+		int atual = 1, anterior = 0;
+		
+		for(int i = 0; i < n; i++) {
+			
+		}
+		
+		return FiboArray;
+	}
+	
+	public void somatorio(int a, int b) {
+		
+	}
+	
+}

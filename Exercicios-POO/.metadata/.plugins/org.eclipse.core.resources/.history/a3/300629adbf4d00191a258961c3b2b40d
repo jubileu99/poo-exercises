@@ -1,0 +1,15 @@
+public class Exer2Test {
+
+	public static void main(String[] args) {
+		long InitialTime = System.currentTimeMillis();
+		
+		Exer2 e1 = new Exer2("EI2O");
+		
+		
+				
+		
+		
+		System.out.println("Exec time: " + (System.currentTimeMillis() - InitialTime));
+	}
+
+}
