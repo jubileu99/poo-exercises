@@ -28,3 +28,4 @@ Sharks05;78;97;Klingon
 Burners;83;96;Klingon
 Panpum;88;7;Sharks05
 Docker;51;84;Androids
+ASDB;11;12;Brasil

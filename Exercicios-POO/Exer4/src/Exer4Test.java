@@ -1,11 +1,12 @@
+import java.io.IOException;
 
 public class Exer4Test {
 
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		// TODO Auto-generated method stub
 		
-		Exer4 e1 = new Exer4();
-		
+		Exer4 e1 = new Exer4("C:\\Users\\victo\\Documents\\workspace\\workspace-java\\Exercicios-POO\\Exer4\\src\\AT02.txt");
+		e1.AddMatch("ASDB", 11, "Brasil", 12);	
 	}
 
 }
